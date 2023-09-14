@@ -1,0 +1,44 @@
+.todoList-todoItem{
+    padding: 30px 30px;
+    position: relative;
+    background: #FAFAFA;
+    box-shadow:  0px 0px 20px 2px rgb(202, 201, 202);
+}
+.todoList-todoItem-container{
+    display: flex;
+    align-items: center;
+}
+.todoItem-text{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
+}
+.todoItem-text{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
+}
+.todoItem-text--complete{
+    text-decoration: line-through;
+}
+.icon{
+    font-size: 30px;
+    color: gray;
+}
+.icon-check{
+    padding-right: 15px;
+}
+.icon-check--active{
+    color: #4caf50;
+}
+.icon-deleted{
+    position: absolute;
+    top: -15px;
+    right: 15px;
+}
+.icon-deleted:hover{
+    color: red;
+}
+.icon-check:hover{
+    color: #4caf50;
+}

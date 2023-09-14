@@ -1,0 +1,10 @@
+.todoButton{
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-size: 50px;
+    color: #61dafa;
+    position: absolute;
+    bottom: -5px;
+    right: 25px;
+}
